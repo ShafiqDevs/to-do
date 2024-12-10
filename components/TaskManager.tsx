@@ -7,7 +7,9 @@ import { api } from '@/convex/_generated/api';
 import { v4 as uuidv4 } from 'uuid';
 import Task from './Task';
 
-type Props = {};
+type Props = {
+	sdsd: string;
+};
 
 export default function TaskManager({}: Props) {
 	const tasks_by_status_index = useQuery(
