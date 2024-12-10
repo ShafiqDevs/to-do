@@ -8,7 +8,6 @@ import { v4 as uuidv4 } from 'uuid';
 import Task from './Task';
 
 type Props = {
-	sdsd: string;
 };
 
 export default function TaskManager({}: Props) {
